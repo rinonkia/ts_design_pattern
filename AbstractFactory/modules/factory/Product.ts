@@ -12,6 +12,4 @@ export default abstract class Product {
     equipComponent(name: string, component: Component): void {
         this.components[name] = component;
     }
-
-    abstract check: void;
 }
